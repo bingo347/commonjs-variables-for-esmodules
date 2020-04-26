@@ -1,0 +1,26 @@
+{
+  "name": "commonjs-variables-for-esmodules",
+  "description": "Simple function for extract node variables __dirname, __filename, require and module from import.meta",
+  "keywords": [
+    "commonjs",
+    "es modules",
+    "import.meta"
+  ],
+  "version": "1.0.0",
+  "main": "index.mjs",
+  "types": "index.d.ts",
+  "type": "module",
+  "engines": {
+    "node": ">= 12.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bingo347/commonjs-variables-for-esmodules.git"
+  },
+  "author": "Dmitriy Belyaev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bingo347/commonjs-variables-for-esmodules/issues"
+  },
+  "homepage": "https://github.com/bingo347/commonjs-variables-for-esmodules#readme"
+}

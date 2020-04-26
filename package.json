@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/bingo347/commonjs-variables-for-esmodules/issues"
   },
-  "homepage": "https://github.com/bingo347/commonjs-variables-for-esmodules#readme"
+  "homepage": "https://github.com/bingo347/commonjs-variables-for-esmodules#readme",
+  "devDependencies": {
+    "@types/node": "^13.13.2"
+  }
 }

@@ -13,7 +13,7 @@ yarn add commonjs-variables-for-esmodules
 ## Limitations
 
 - node 12.2 or higher
-- use only in ES modules
+- use only in native ES modules
 
 ## Usage
 
@@ -27,3 +27,7 @@ const {
     module
 } = commonjsVariables(import.meta);
 ```
+
+## License
+
+MIT

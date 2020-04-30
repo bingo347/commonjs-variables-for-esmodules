@@ -6,7 +6,7 @@
     "es modules",
     "import.meta"
   ],
-  "version": "1.0.0",
+  "version": "1.1.0",
   "main": "index.mjs",
   "types": "index.d.ts",
   "type": "module",

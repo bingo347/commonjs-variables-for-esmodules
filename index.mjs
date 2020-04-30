@@ -4,9 +4,14 @@ import {join, dirname} from 'path';
 
 const getParentPath = join(dirname(fileURLToPath(import.meta.url)), 'get-parent.cjs');
 
+const cache = Object.create(null);
+
 function createVariables({url}) {
+    if(url in cache) {
+        return cache[url];
+    }
     const __filename = fileURLToPath(url);
-    const variables = {
+    const variables = cache[url] = {
         __filename,
         __dirname: dirname(__filename)
     };
